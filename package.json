@@ -1,0 +1,21 @@
+{
+  "name": "atividade-1",
+  "version": "0.1.0",
+  "description": "1ª atividade de html, css, js. Pagina de um filme",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oouo/atividade-1.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diogopbritto@gmail.com",
+  "license": "UNLICENSED"
+}

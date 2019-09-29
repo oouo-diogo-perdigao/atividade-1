@@ -1,0 +1,73 @@
+body{
+	background-color: gray;
+	color: white;
+}
+
+.rigthImage{
+	float: right;
+}
+
+figcaption{
+	width: 100%;
+}
+
+.center {
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	alignment-adjust: central;
+	alignment-baseline: central;
+	text-align: center;
+	text-align-last: center;
+}
+
+
+ul li { display: inline; }
+ul li img{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+
+
+dl {
+	margin-bottom:50px;
+	display: inline-block;
+}
+dl dt::after{
+	content: ": ";
+}
+dl dt {
+    background:#5f9be3;
+    color:#fff;
+    float:left;
+    font-weight:bold; 
+	margin-right:10px; 
+	margin-bottom: 10px;
+    padding:5px;  
+	width:150px;
+	clear: both;
+}
+
+dl dd {
+	float:left;
+    margin:2px 0; 
+	padding:5px 0;
+	display: inline-block;
+}
+dl dd::after {
+	content: ", ";
+	color: red;
+}
+dl dd:last-child::after {
+	content: " - ";
+	color: blue;
+}
+dt + dd::after {
+	content: " - ";
+	color: blue;
+}
+
+iframe.trailler{
+	max-width: calc(100vw - 16px);
+}
